@@ -1,0 +1,228 @@
+/*Style de la table index*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+table caption {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 15px;
+    background: #0078d7;
+    color: #fff;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 12px 15px;
+}
+
+th {
+    color: #000000;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(180, 180, 180);
+}
+
+
+th:nth-child(4) {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #e9f5ff;
+}
+
+a {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/*Style du formulaire d'ajout*/
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 98%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input,
+select,
+textarea {
+    width: 99%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="submit"]:hover {
+    background-color: #005bb5;
+}
+
+/*Style e la page details*/
+.product-details {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.product-details h2 {
+    margin-top: 0;
+}
+
+.product-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.product-details dt,
+.product-details dd {
+    width: 50%;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.product-details dt {
+    font-weight: bold;
+    color: #555;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*Pagination*/
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.pagination a {
+    text-decoration: none;
+    color: #0078d7;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
+    background-color: #0078d7;
+    color: white;
+}
+
+.pagination .current a {
+    background-color: #0078d7;
+    color: white;
+    pointer-events: none;
+}
+
+/* Style pour le conteneur des filtres */
+.filter-dropdown {
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Style pour le résumé (titre du menu déroulant) */
+.filter-dropdown summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    outline: none;
+}
+
+/* Personnalisation des champs */
+.filter-dropdown form {
+    margin-top: 10px;
+}
+
+.filter-dropdown label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.filter-dropdown select,
+.filter-dropdown input[type="number"],
+.filter-dropdown input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.filter-dropdown input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.filter-dropdown input[type="submit"]:hover {
+    background-color: #0056b3;
+}

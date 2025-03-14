@@ -72,4 +72,4 @@ Nous avons mis en place un CRUD pour la gestion d'une bibliothèque de livres, p
 
             - Sinon : http://localhost/bdshop
 
-            - Cliquez sur Admin puis entrez les informations de connexion (voir database/readme)
+            - Cliquez sur admin/ puis entrez les informations de connexion (voir database/readme)

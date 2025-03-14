@@ -46,7 +46,7 @@ Nous avons mis en place un CRUD pour la gestion d'une bibliothèque de livres, p
         - Démarrez WAMP et assurez-vous que Apache et MySQL sont
         actifs.
 
-        - Configurer un VirtualHost (optionnel) :
+        - Configurer un VirtualHost (optionnel)
 
     - Installation du projet
 
@@ -71,3 +71,5 @@ Nous avons mis en place un CRUD pour la gestion d'une bibliothèque de livres, p
             - Si VirtualHost configuré : http://bdshop
 
             - Sinon : http://localhost/bdshop
+
+            - Cliquez sur Admin puis entrez les informations de connexion (voir database/readme)
